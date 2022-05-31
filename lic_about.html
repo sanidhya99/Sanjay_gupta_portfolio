@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: var(--bs-body-font-family);
+        }
+
+        #header {
+            background-color: black;
+            height: 70px;
+            position: sticky;
+            top: 0px;
+            z-index: 100;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        #navbar {
+
+            background-color: black;
+        }
+
+        .nav {
+            float: right;
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            margin: 15px;
+            padding-top: 13px;
+            font-size: 21px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(24, 139, 216);
+        }
+
+        #searchbar {
+            display: inline;
+            float: right;
+            margin-top: 23px;
+            margin-right: 10px;
+            border-radius: 43px;
+            height: 22px;
+            font-size: 100%;
+        }
+
+        #headimg {
+
+            float: left;
+            height: 70px;
+            margin-left: 20px;
+        }
+
+        #divisor {
+            background-color: #b4a2a280;
+            color: rgb(71, 71, 191);
+            height: 35px;
+            font-size: 28px;
+        }
+
+        #info_tag {
+            margin-left: 45px;
+        }
+
+        #page_sec1 {
+            height: 330px;
+            margin-top: 20px;
+            display: flex;
+        }
+
+        #display_img {
+            display: flex;
+            width: 410px;
+            margin-left: 0px;
+            height: 320px;
+            margin-top: 0px;
+            margin: 0px;
+        }
+
+        #sec1_text {
+            display: flex;
+            width: 1064px;
+            height: 320px;
+            margin-left: 35px;
+            font-size: 22px;
+            line-height: 53px;
+            color: gray;
+            letter-spacing: 2px;
+        }
+
+        #sec1_text:hover {
+            color: black;
+            zoom: 110%;
+        }
+
+        #display-img {
+            height: 320px;
+            border-radius: 20px;
+            width: 410px;
+        }
+
+        #page_sec2 {
+            /* background-color: red; */
+            display: flex;
+            height: 395px;
+            width: 1511px;
+            margin-top: 40px;
+        }
+
+        #display_img2 {
+            /* background-color: blueviolet; */
+            height: 385px;
+            width: 510px;
+        }
+
+        #sec2_text {
+            display: flex;
+            width: 1064px;
+            height: 320px;
+            margin-left: 6px;
+            padding-right: 10px;
+            font-size: 22px;
+            line-height: 53px;
+            color: gray;
+            box-sizing: border-box;
+            letter-spacing: 2px;
+            margin-right: 55px;
+        }
+
+        #sec2_text:hover {
+            color: black;
+            zoom: 110%;
+        }
+
+        #display-img2 {
+            height: 100%;
+            width: 470px;
+            margin-right: 10px;
+            border-radius: 20px;
+        }
+
+        #footer {
+            margin-left: 10px;
+            margin-top: 35px;
+            border-top: 4px solid gray;
+
+        }
+
+        #copy {
+
+            justify-items: center;
+            font-size: 31px;
+            text-align: center;
+            box-sizing: border-box;
+            display: inline-block;
+            color: gray;
+            height: 400px;
+            width: 500px;
+
+
+        }
+
+        #copy:hover {
+            color: black;
+        }
+
+        #intel {
+            box-sizing: border-box;
+            margin-top: 30px;
+
+            height: 400px;
+            width: 953px;
+
+            float: right;
+        }
+
+        #copy_text {
+            margin-top: 40px;
+        }
+
+        .foot_list {
+            display: inline-block;
+            list-style: none;
+            margin-left: 100px;
+            margin-top: 20px;
+            font-size: 15px;
+            color: gray;
+        }
+
+        li {
+            margin-bottom: 40px;
+        }
+
+        a {
+            color: gray;
+        }
+
+        #foot_tag {
+            color: black;
+        }
+        #active{
+        color: rgb(24, 139, 216);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <a href="lic.html"> <img src="lic_logo1.jpg" alt="lic.jpg" id="headimg"></a>
+        <header>
+            <nav id="navbar">
+                <input type="text" id="searchbar" class="search">
+                <ul>
+                    <li class="nav"><a href="lic_contact.html">CONTACT</a></li>
+                    <li class="nav"><a href="lic_policies.html">POLICIES</a></li>
+                    <li class="nav"><a href="lic_gallery.html">GALLERY</a></li>
+                    <li class="nav"><a href="lic_achievements.html">ACHIEVEMENTS</a></li>
+                    <li class="nav"><a href="lic_about.html" id="active">ABOUT</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="divisor">
+        <b id="info_tag"> Sanjay Gupta</b>
+    </div>
+    <div id="info">
+        <div id="page_sec1">
+            <div id="display_img"><img src="sanjay-gupta.jpg.jpeg" alt="sanjay-gupta" id="display-img"></div>
+            <div id="sec1_text"><b>Myself Sanjay Gupta , basically I'm from Dharamshala Distt. Kangra. I have seen many
+                    places due to the transferable but prestigious job of my respectable father Mr S.M. Gupta who was a
+                    B.M in L.I.C of India.I had stayed in dharamshala for major part of my life but for sometime i
+                    stayed in chamba also.i have done my schooling til 5 th from sacred heart convent dharamshala. after
+                    that done tilt 10th from chamba ,+1,+2 from govt college kangra, and my bsc from govt college
+                    dharamshala </b></div>
+        </div>
+        <div id="page_sec2">
+
+            <div id="sec2_text">
+                <b>In 1993 I joined L.I.C by clearing the exam of D.O. of L.I.C .
+                    I got a training of 1 year in main training branch of L.I.C .
+                    and finally joined in 1994 at L.I.C office Nahan.First one year was my probation period , during the
+                    first year I worked hard to build and my well planned and technical field , took a first hand
+                    experience in employee management and public dealing . Cleared my probation with flying colors, got
+                    permanent . and till now am serving people with best policies and most reliable services .</b>
+            </div>
+            <div id="display_img2">
+                <img src="lic.jpg" alt="lic.jpg" id="display-img2">
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <footer>
+            <div id="copy"> <span id="copy_text">
+                    <center> &nbsp;<br><br><br><br><br> All &copy; reserved to Team Sanjay Gupta</center>
+                </span> </div>
+            <div id="intel">
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Our Team</b></li>
+                    <li>Sanjay-gupta</li>
+                    <li>B.M</li>
+                    <li>Asst.B.M</li>
+                    <li>P.A</li>
+                </ul>
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Contact</b></li>
+                    <li>Sanjay Gupta(D.O)</li>
+                    <li>Branch Manager</li>
+                    <li>Asst. Branch Manager</li>
+                    <li>Secretary</li>
+                </ul>
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Links</b></li>
+                    <li>Recruitment</li>
+                    <li>Policies</li>
+                    <li>T&C</li>
+                    <li>Quiries</li>
+                </ul>
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Info</b></li>
+                    <li><a href="https://goo.gl/maps/4bDfNC1nQSGM5QA6A">location</a></li>
+                    <li>Facebook</li>
+                    <li>insta</li>
+                    <li>linkedin</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: var(--bs-body-font-family);
+        }
+
+        #header {
+            background-color: black;
+            height: 70px;
+            position: sticky;
+            top: 0px;
+            z-index: 100;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        #navbar {
+
+            background-color: black;
+        }
+
+        .nav {
+            float: right;
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            margin: 15px;
+            padding-top: 13px;
+            font-size: 21px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(24, 139, 216);
+        }
+
+        #searchbar {
+            display: inline;
+            float: right;
+            margin-top: 23px;
+            margin-right: 10px;
+            border-radius: 43px;
+            height: 22px;
+            font-size: 100%;
+        }
+
+        #headimg {
+
+            float: left;
+            height: 70px;
+            margin-left: 20px;
+        }
+
+        .tag_container {
+            background-color: #b4a2a280;
+            color: rgb(71, 71, 191);
+            height: 35px;
+            font-size: 28px;
+
+        }
+
+        .tag {
+            padding-left: 45px;
+
+        }
+
+        #active {
+            color: rgb(24, 139, 216);
+        }
+
+        .achievements {
+            background-color:#0000001c;
+            margin-bottom: 15px;
+            padding: 20px;
+            color: rgb(71, 71, 191);
+           
+        }
+        #page_cont1{
+            margin-top: 20px;
+            /* background-color: red; */
+        }
+        #awards{
+            display: flex;
+            /* background-color: red; */
+            height: 310px;
+            margin-top: 30px;
+        }
+        #awards-1{
+         width: 25%;
+         /* background-color: greenyellow; */
+/* border:2px solid black */
+        }
+        #awards-2{
+            width: 75%;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+    margin-left: 30px;
+    font-size: 25px;
+    line-height: 55px;
+    letter-spacing: 5px;
+        }
+        #awards-2:hover{
+            zoom:104%
+        }
+        #award_id{
+            height: 306px;
+    width: 366px;
+    border-radius: 30px;
+        }
+        #team_awards{
+            display: flex;
+            /* background-color: red; */
+            height: 310px;
+             margin-top: 30px;
+        }
+        #team_awards-1{
+         width: 25%;
+         /* background-color: greenyellow; */
+/* border:2px solid black */
+        }
+        #team_awards-2{
+            width: 75%;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+    margin-right: 30px;
+    font-size: 25px;
+    line-height: 55px;
+    letter-spacing: 5px;
+        }
+        #team_awards-2:hover{
+            zoom:104%
+        }
+        #team_award_id{
+            height: 306px;
+    width: 366px;
+    border-radius: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <a href="lic.html"> <img src="lic_logo1.jpg" alt="lic.jpg" id="headimg"></a>
+        <header>
+            <nav id="navbar">
+                <input type="text" id="searchbar" class="search">
+                <ul>
+                    <li class="nav"><a href="lic_contact.html">CONTACT</a></li>
+                    <li class="nav"><a href="lic_policies.html">POLICIES</a></li>
+                    <li class="nav"><a href="lic_gallery.html">GALLERY</a></li>
+                    <li class="nav"><a href="lic_achievements.html" id="active">ACHIEVEMENTS</a></li>
+                    <li class="nav"><a href="lic_about.html">ABOUT</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="tag_container">
+        <b class="tag">ACHIEVEMENTS</b>
+    </div>
+
+
+    <div id="page_cont1">
+        <div class="achievements">
+            <details >
+                <summary> <b>AWARDS</b> </summary> 
+                <div id="awards" >
+                 <div id="awards-1">
+                     <img src="sanjay-gupta.jpg.jpeg" alt="Award taking picture" id="award_id">
+                 </div>
+                 <div id="awards-2">
+                  I have been 3 times awarded with best D.O. of country , 4 times with biggest business maker in north east and west zone ,i have continously been on the top of my state division since from very start of my career and always have been providing people with the best and most relaible services
+                 </div>
+                </div>
+            </details>
+        </div>
+        <!-- use summary to not show detail tag in details  -->
+        <div class="achievements">
+            <details id="team achievements">
+                <summary> <b>TEAM ACHIEVEMENTS</b> </summary>
+                 <div id="team_awards" >
+                     <div id="team_awards-2">
+                      I have been 3 times awarded with best D.O. of country , 4 times with biggest business maker in north east and west zone ,i have continously been on the top of my state division since from very start of my career and always have been providing people with the best and most relaible services
+                     </div>
+                    <div id="team_awards-1">
+                        <img src="sanjay-gupta.jpg.jpeg" alt="Award taking picture" id="team_award_id">
+                    </div>
+                   </div>
+            </details>
+        </div>
+        <div class="achievements">
+            <details id="records">
+                <summary> <b>RECORDS MADE</b> </summary>
+            </details>
+        </div>
+
+    </div>
+</body>
+
+</html>

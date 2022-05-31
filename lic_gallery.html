@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+            font-family: var(--bs-body-font-family);
+        }
+
+        #header {
+            background-color: black;
+            height: 70px;
+            position: sticky;
+         top: 0px;
+         z-index: 100;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        #navbar {
+
+            background-color: black;
+        }
+
+        .nav {
+            float: right;
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            margin: 15px;
+            padding-top: 13px;
+            font-size: 21px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(24, 139, 216);
+        }
+
+        #searchbar {
+            display: inline;
+            float: right;
+            margin-top: 23px;
+            margin-right: 10px;
+            border-radius: 43px;
+            height: 22px;
+            font-size: 100%;
+        }
+
+        #headimg {
+
+            float: left;
+            height: 70px;
+            margin-left: 20px;
+        }
+        .media_type{
+            background-color: #b4a2a280;
+            color: rgb(71, 71, 191);
+            height: 35px;
+            font-size: 28px;
+
+        }
+        .type_media{
+            padding-left: 45px;
+
+        }
+        .container{
+            height: 700px;
+            width: 100%;
+            /* background-color: tomato; */
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .item{
+            border: 4px solid black;
+            /* background-color: aquamarine; */
+            width: 150px;
+            height: 150px;
+            margin:20px
+        }
+        .item:hover{
+            zoom: 110%;
+        }
+        #footer {
+            margin-left: 10px;
+            margin-top: 35px;
+            border-top: 4px solid gray;
+
+        }
+
+        #copy {
+
+            justify-items: center;
+            font-size: 31px;
+            text-align: center;
+            box-sizing: border-box;
+            display: inline-block;
+            color: gray;
+            height: 400px;
+            width: 500px;
+
+
+        }
+
+        #copy:hover {
+            color: black;
+        }
+
+        #intel {
+            box-sizing: border-box;
+            margin-top: 30px;
+
+            height: 400px;
+            width: 953px;
+
+            float: right;
+        }
+
+        #copy_text {
+            margin-top: 40px;
+        }
+
+        .foot_list {
+            display: inline-block;
+            list-style: none;
+            margin-left: 100px;
+            margin-top: 20px;
+            font-size: 15px;
+            color: gray;
+        }
+
+        li {
+            margin-bottom: 40px;
+        }
+
+        a {
+            color: gray;
+        }
+
+        #foot_tag {
+            color: black;
+        }
+        #active{
+        color: rgb(24, 139, 216);
+        }
+        /* #active:hover{
+        color: gray;
+        } */
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="lic.html"> <img src="lic_logo1.jpg" alt="lic.jpg" id="headimg"></a> 
+         <header>
+             <nav id="navbar">
+                 <input type="text" id="searchbar" class="search">
+                 <ul>
+                     <li class="nav"><a href="lic_contact.html">CONTACT</a></li>
+                     <li class="nav"><a href="lic_policies.html">POLICIES</a></li>
+                     <li class="nav"><a href="lic_gallery.html" id="active">GALLERY</a></li>
+                     <li class="nav"><a href="lic_achievements.html">ACHIEVEMENTS</a></li>
+                     <li class="nav"><a href="lic_about.html">ABOUT</a></li>
+ 
+                 </ul>
+             </nav>
+         </header>
+     </div>
+     <div class="media_type">
+        <b class="type_media">Photos</b>
+     </div>
+
+     <div class="container">
+
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+         <img src="" alt="photos" class="item">
+        </div>
+     <div class="media_type">
+        <b class="type_media">Vedios</b>
+     </div>
+
+     <div class="container">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+         <img src="" alt="vedios" class="item">
+        </div>
+        <div id="footer">
+            <footer>
+                <div id="copy"> <span id="copy_text">
+                        <center> &nbsp;<br><br><br><br><br> All &copy; reserved to Team Sanjay Gupta</center>
+                    </span> </div>
+                <div id="intel">
+                    <ul class="foot_list">
+                        <li><b id="foot_tag">Our Team</b></li>
+                        <li>Sanjay-gupta</li>
+                        <li>B.M</li>
+                        <li>Asst.B.M</li>
+                        <li>P.A</li>
+                    </ul>
+                    <ul class="foot_list">
+                        <li><b id="foot_tag">Contact</b></li>
+                        <li>Sanjay Gupta(D.O)</li>
+                        <li>Branch Manager</li>
+                        <li>Asst. Branch Manager</li>
+                        <li>Secretary</li>
+                    </ul>
+                    <ul class="foot_list">
+                        <li><b id="foot_tag">Links</b></li>
+                        <li>Recruitment</li>
+                        <li>Policies</li>
+                        <li>T&C</li>
+                        <li>Quiries</li>
+                    </ul>
+                    <ul class="foot_list">
+                        <li><b id="foot_tag">Info</b></li>
+                        <li><a href="https://goo.gl/maps/4bDfNC1nQSGM5QA6A">location</a></li>
+                        <li>Facebook</li>
+                        <li>insta</li>
+                        <li>linkedin</li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+</body>
+</html>

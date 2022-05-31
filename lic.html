@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay-gupta</title>
+    <style>
+        * {
+            font-family: var(--bs-body-font-family);
+        }
+
+        #header {
+
+            background-color: black;
+            height: 70px;
+            position: sticky;
+            top: 0px;
+            z-index: 100;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        #navbar {
+
+            background-color: black;
+        }
+
+        .nav {
+            float: right;
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            margin: 15px;
+            padding-top: 13px;
+            font-size: 21px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(24, 139, 216);
+        }
+
+        #searchbar {
+            display: inline;
+            float: right;
+            margin-top: 23px;
+            margin-right: 10px;
+            border-radius: 43px;
+            height: 22px;
+            font-size: 100%;
+        }
+
+        #headimg {
+
+            float: left;
+            height: 70px;
+            margin-left: 20px;
+        }
+
+        #tag {
+            display: flex;
+        }
+
+        #intro_text {
+            display: inline-block;
+            width: 61%;
+            height: 380px;
+        }
+
+        #intro_img {
+
+            display: inline-block;
+            width: 38%;
+            height: 380px;
+        }
+
+        #intro-img {
+            width: 100%;
+        }
+
+        #text1 {
+            color: black;
+            font-size: 50px;
+        }
+
+        #text2 {
+            color: blue;
+            font-size: 50px;
+        }
+
+        #textbar {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        #textplain {
+            color: gray;
+            box-sizing: border-box;
+            font-size: 20px;
+            line-height: 75px;
+            letter-spacing: 4px;
+            padding-right: 20px;
+        }
+
+        #textplain:hover {
+            color: black;
+            zoom: 110%;
+        }
+
+        #intro {
+            display: flex;
+            margin-top: 40px;
+        }
+
+        .gallery {
+            margin-top: 85px;
+            height: 800px;
+            width: 745px;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+            margin-left: 22px;
+        }
+
+        .gallery img {
+            height: 100%;
+            width: 100%;
+            flex-shrink: 0;
+            object-fit: cover;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        .gallery {
+            display: inline-block;
+        }
+
+        #perks {
+            display: inline-block;
+            height: 800px;
+            margin-left: 15px;
+            margin-top: 85px;
+            width: 700px;
+            float: right;
+        }
+
+        #footer {
+            margin-left: 10px;
+            border-top: 4px solid gray;
+
+        }
+
+        #copy {
+
+            justify-items: center;
+            font-size: 31px;
+            text-align: center;
+            box-sizing: border-box;
+            display: inline-block;
+            color: gray;
+            height: 400px;
+            width: 500px;
+
+
+        }
+
+        #copy:hover {
+            color: black;
+        }
+
+        #intel {
+            box-sizing: border-box;
+            margin-top: 30px;
+
+            height: 400px;
+            width: 953px;
+
+            float: right;
+        }
+
+        #copy_text {
+            margin-top: 40px;
+        }
+
+        .foot_list {
+            display: inline-block;
+            list-style: none;
+            margin-left: 100px;
+            margin-top: 20px;
+            font-size: 15px;
+            color: gray;
+        }
+
+        li {
+            margin-bottom: 40px;
+        }
+
+        a {
+            color: gray;
+        }
+
+        #foot_tag {
+            color: black;
+        }
+
+        #perk_div {
+            margin-top: 35x;
+            width: 510px;
+            margin-left: 115px;
+            box-sizing: border-box;
+            height: 613px;
+            font-size: 35px;
+            line-height: 80px;
+            color: gray;
+        }
+
+        #perk_div:hover {
+            zoom: 110%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <a href="lic.html"> <img src="lic_logo1.jpg" alt="lic.jpg" id="headimg"></a>
+        <header>
+            <nav id="navbar">
+                <input type="text" id="searchbar" class="search" placeholder="search">
+                <ul>
+                    <li class="nav"><a href="lic_contact.html">CONTACT</a></li>
+                    <li class="nav"><a href="lic_policies.html">POLICIES</a></li>
+                    <li class="nav"><a href="lic_gallery.html">GALLERY</a></li>
+                    <li class="nav"><a href="lic_achievements.html">ACHIEVEMENTS</a></li>
+                    <li class="nav"><a href="lic_about.html">ABOUT</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="intro">
+
+        <div id="intro_text">
+            <div id="textbar">
+
+                <span id="text1"><b>Welcome to </b> </span>
+                <span id="text2"><b>TEAM SANJAY GUPTA</b> </span>
+            </div>
+            <div id="textplain">
+                Hey!Myself Sanjay Gupta I'm a Development Officer in L.I.C one of the most prestigious organisation of
+                country!Me and my team are serving the people with best term policies and most reliable service since
+                1993.So come join us and be a part of our beautiful journey! </div>
+
+        </div>
+        <div id="intro_img">
+            <img src="lic.jpg" alt="lic" id="intro-img">
+        </div>
+    </div>
+    <div id="conv">
+
+        <div class="gallery">
+            <img src="lic.jpg" alt="lic_sanjaygupta.jpg">
+            <img src="lic_logo1.jpg" alt="lic_sanjaygupta.jpg">
+            <img src="lic.jpg" alt="lic_sanjaygupta.jpg">
+            <img src="lic_logo1.jpg" alt="lic_sanjaygupta.jpg">
+            <img src="lic.jpg" alt="lic_sanjaygupta.jpg">
+        </div>
+        <div id="perks">
+            <div id="perk_div"> <b style="color: black;">Reason Why You Should Have An Insurance?</b><br>
+                &bull;It provides you security<br>
+                &bull;It provides you good financial planning<br>
+                &bull;It provides you good source of investment<br>
+                &bull;Beacuse L.I.C Zindagi ke sath bhi Zindagi ke bad bhi<br>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <footer>
+            <div id="copy"> <span id="copy_text">
+                    <center> &nbsp;<br><br><br><br><br> All &copy; reserved to Team Sanjay Gupta</center>
+                </span> </div>
+            <div id="intel">
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Our Team</b></li>
+                    <li>Sanjay-gupta</li>
+                    <li>B.M</li>
+                    <li>Asst.B.M</li>
+                    <li>P.A</li>
+                </ul>
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Contact</b></li>
+                    <li>Sanjay Gupta(D.O)</li>
+                    <li>Branch Manager</li>
+                    <li>Asst. Branch Manager</li>
+                    <li>Secretary</li>
+                </ul>
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Links</b></li>
+                    <li>Recruitment</li>
+                    <li>Policies</li>
+                    <li>T&C</li>
+                    <li>Quiries</li>
+                </ul>
+                <ul class="foot_list">
+                    <li><b id="foot_tag">Info</b></li>
+                    <li><a href="https://goo.gl/maps/4bDfNC1nQSGM5QA6A">location</a></li>
+                    <li>Facebook</li>
+                    <li>insta</li>
+                    <li>linkedin</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
