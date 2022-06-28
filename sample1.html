@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM Watson</title>
+    <style>
+        body {
+            background-image: url(blue.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center center;
+        }
+
+        
+        #logo {
+            height: 60px;
+            width: 57px;
+        }
+        
+        #tag {
+            color: white;
+            font-size: 20px;
+            margin-left: 6px;
+        }
+        
+        .container {
+            display: flex;
+            
+        }
+        
+        #head {
+            display: flex;
+            padding: 40px;
+            grid-area: head;
+        }
+        #item1 {
+            width: 50%;
+            height: 700px;
+            margin-top: 5rem;
+            height: 2rem;
+            display: inline-block;
+            width: 48%;
+            grid-area: box1;
+        }
+
+        #item2 {
+            width: 50%;
+            height: 2rem;
+            grid-area: box2;
+            height: 700px;
+            display: inline-block;
+            width: 48%;
+            /* background-color: yellowgreen; */
+        }
+
+        @media(max-width:300px) {
+            body {
+                background-image: url(blue.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center center;
+                display: grid;
+                grid-template-areas:
+                    'head head head head'
+                    'box1 box1 box1 box1'
+                    'box1 box1 box1 box1'
+                    'box1 box1 box1 box1'
+                    'box2 box2 box2 box2'
+                    'box2 box2 box2 box2'
+                    'box2 box2 box2 box2'
+
+
+                ;
+            }
+        }
+
+        #box {
+            color: white;
+            font-size: 100px;
+            position: absolute;
+            top: 150px;
+            left: 85px;
+            font-family: 'IBM Plex Sans', ibm-plex-sans, 'Helvetica Neue', Arial, sans-serif;
+            letter-spacing: 10px;
+            line-height: 125px;
+        }
+
+        #flex {
+            /* background-color: blueviolet; */
+            height: 20rem;
+            width: 25rem;
+            color: white;
+            margin-left: 12rem;
+            margin-top: 11rem;
+            font-size: 1.2rem;
+            line-height: 2.6rem;
+        }
+
+        #story {
+            background-color: rgb(71 71 249 / 87%);
+            color: white;
+            font-size: 1.4rem;
+            margin-left: 12rem;
+            height: 6rem;
+            width: 25rem;
+            padding: 0rem;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="head">
+        <img src="lic_logo1.jpg" alt="logo" id="logo">
+        <p id="tag">IBM <b style="font-weight:bolder">WATSON</b></p>
+
+    </div>
+    <!-- <div class="container"> -->
+    <div id="item1">
+        <div id="box">The <br> Harmonic <br> State</div>
+    </div>
+    <div id="item2">
+        <div id="flex">Choosing rigth AI partner and solution can mean the difference between <b>harmony</b> and
+            <b>dissonance</b> in your organisation. <br> IBM Watson can help you uncover the insights you need to
+            take action,bring order to even the most complex environments, and keep moving forward
+        </div>
+        <button id="story"><b>Select Your Story</b> </button>
+    </div>
+    <!-- </div> -->
+</body>
+
+</html>
